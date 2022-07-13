@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome-5/css/fontawesome-all.min.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+</head>
+<body>
+
+  <header>
+    <div class="logo"><img src="images/logo.svg" alt=""></div>
+  </header>
+
+  <main>
+    <div class="text-container">
+      <h3><span> WE'RE </span><br> COMMING <br> SOON</h3>
+      <p>Hello fellow shoppers! We're currently building our new fashion store add your email bellows to stay up to date with announcements and our launch deals</p>
+      <form class="inputForms" name="formInput" onsubmit="validasiEmail();">
+        <input type="text" name="email" placeholder="Email Address">
+      <button type="submit" name="submit"><i class="fas fa-chevron-right"></i></button>
+      </form>
+      <div id="validation"></div>
+    </div>
+
+    <div class="images-text">
+      <img src="images/hero-desktop.jpg" class="desktopImages" alt="">
+      <img src="images/hero-mobile.jpg" class="mobileImages" alt="">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+
+
+</body>
+</html>
